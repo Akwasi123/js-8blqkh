@@ -1,0 +1,24 @@
+<h1 id="app"></h1>
+<form id="addForm" class="form-box" method="post">
+	<div class="field-group">
+		<label for="first">First</label>
+		<input type="text" id="first" name="f_name"  placeholder="First Name">
+    </div>
+		<div class="field-group">
+			<label for="last">Last</label>
+			<input type="text" id="last" name="l_name" placeholder="Last Name">
+    </div>
+			<div class="field-group">
+				<label for "email">Email</label>
+				<input type="email" id="email" name="email"  placeholder="studentname@ahesi.edu.gh">
+    </div>
+				<div class="radio-box">
+					<p>Gender</p>
+					<input type="radio" id="male" name="gender" value="Male">
+					<label for="male">Male</label><br>
+					<input type="radio" id="female" name="gender" value="Female">
+					<label for="female">Female</label><br>
+      </div>
+					<button id="addStudentSubmit" type="submit" value="add" >Add</button>
+					<div class="radio-box" id="form-errors"></div>
+</form>
