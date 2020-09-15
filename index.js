@@ -5,6 +5,7 @@ import './style.css';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>Add User</h1>`;
 const form = document.getElementById("addForm");
+
 //initial boxes do not have the red borders since nothing has been entered yet
 document.getElementById("first").classList.remove("error_box");
 document.getElementById("last").classList.remove("error_box");
@@ -34,6 +35,8 @@ function onSubmit(event) {
     */
    document.getElementById("form-errors").innerHTML = "";
    let msg = "";
+
+   //removes the red borders if the fields are not empty
    document.getElementById("first").classList.remove("error_box");
    document.getElementById("last").classList.remove("error_box");
    document.getElementById("email").classList.remove("error_box");
