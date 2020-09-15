@@ -1,6 +1,10 @@
 // Import stylesheets
 import './style.css';
-
+/**
+ * @author: Akwasi A. Asante-Krobea
+ * @author: Pascal Awonab 
+ * @author: Stephanie
+ */
 // Use DOM to insert text in an element
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>Add User</h1>`;
