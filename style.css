@@ -129,3 +129,7 @@ html {
   color: var(--layout-text);
   font-size: 0.25em;
 }
+
+.error_box{
+  border: 2px solid red;
+}
