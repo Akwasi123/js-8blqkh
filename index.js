@@ -3,7 +3,7 @@ import './style.css';
 /**
  * @author: Akwasi A. Asante-Krobea
  * @author: Pascal Awonab 
- * @author: Stephanie 
+ * @author: Stephanie Mosonsieyiri
  */
 // Use DOM to insert text in an element
 const appDiv = document.getElementById('app');
