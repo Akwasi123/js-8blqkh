@@ -62,8 +62,10 @@ function onSubmit(event) {
         parg.innerText = msg; //parg -- paragraph variable
         err.appendChild(parg);
     }
+
+    //if every field is filled then the popup should show
     else{
-      window.alert(`hey ${first} ${last}  you submitted a form. Email: ${email} Gender: ${gender}`);
+      window.alert(`Hey ${first} ${last} you submitted a form.\nEmail: ${email}\nGender: ${gender}`);
     }
    
 }
