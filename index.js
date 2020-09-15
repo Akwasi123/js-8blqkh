@@ -12,6 +12,6 @@ function onSubmit(event) {
    const last = form.elements["l_name"].value;
    window.alert(`hey ${first} ${last}  you submitted a form`);
 }
-j
+
 // attach function to the form "submit" event.
 form.addEventListener('submit',onSubmit)
